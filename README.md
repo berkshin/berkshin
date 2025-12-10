@@ -144,9 +144,9 @@ Small steps, every day.
 <h2>📫 Reach Me</h2>
 
 <p>
-  <a href="https://berksahin.info" style="font-size:20px; font-weight:bold; text-decoration:none;">
-    <b>Berk Şahin</b>
-  </a>
+<a href="https://berksahin.info" target="_blank" style="font-size:20px; font-weight:bold; text-decoration:none;">
+  <b>Berk Şahin</b>
+</a>
 </p>
 
 </div>
