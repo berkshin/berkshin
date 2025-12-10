@@ -1,50 +1,27 @@
-## 👋 Merhaba, ben **Berk**
+👋 Hey, I’m Berk
 
-Ben bir *Frontend geliştiricisiyim*. Modern web teknolojileriyle **hızlı**, **temiz** ve **kullanıcı dostu** arayüzler geliştirmeyi seviyorum.  
-Kod yazarken tasarım detaylarına dikkat ederim; hem göze hoş gelen hem de performanslı çalışan işler üretmeyi hedeflerim.
+I’m a frontend developer who loves creating smooth, fast, and aesthetically sharp interfaces.
+Clean code, modern stacks, and pixel-perfect UI — that’s my playground.
+If something looks good and performs well, then it’s done right.
 
----
+🚀 What I’m into
 
-### 🚀 **İlgi Alanlarım**
-- *React*, *Next.js*, modern JavaScript ekosistemi  
-- Responsive & mobil odaklı arayüz geliştirme  
-- UI/UX düşünce yapısı, component mimarileri  
-- Kendi projelerimi geliştirmek ve açık kaynağa katkı yapmak  
+Crafting modern web apps with React & Next.js
 
----
+Designing responsive interfaces that feel natural on any device
 
+Component-driven architecture
 
-### 🧰 Yetenekler
+Building real projects, shipping fast, improving constantly
 
-**HTML**  
-![HTML](https://progress-bar.dev/90/?width=200&color=ff0000)
+🛠️ Technologies I Use
+<div align="left"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="45" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="45" /> </div>
+🎯 My Goal
 
-**CSS**  
-![CSS](https://progress-bar.dev/85/?width=200&color=ff3333)
+Stay curious. Build meaningful stuff.
+Write code today that’s better than yesterday’s.
+Always leveling up.
 
-**JavaScript**  
-![JavaScript](https://progress-bar.dev/80/?width=200&color=ff4d4d)
+📫 Reach me
 
-**React**  
-![React](https://progress-bar.dev/75/?width=200&color=ff6666)
-
-**TailwindCSS**  
-![TailwindCSS](https://progress-bar.dev/70/?width=200&color=ff8080)
-
-**Node.js**  
-![Node.js](https://progress-bar.dev/65/?width=200&color=ff9999)
-
-
-
-
----
-
-### 🎯 **Hedefim**
-Her gün bir önceki günden daha iyi kod yazmak.  
-Yeni şeyler öğrenmeyi seviyorum; karmaşık problemleri çözmek benim için *tam bir keyif*.
-
----
-
-### 📫 **Bana Ulaş**
-**https://berksahin.info**
-
+https://berksahin.info
