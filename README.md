@@ -13,119 +13,49 @@ Kod yazarken tasarım detaylarına dikkat ederim; hem göze hoş gelen hem de pe
 
 ---
 
-### 🧠 Yeteneklerim
 
-<div style="width: 100%; max-width: 600px;">
+### 🧰 Yetenekler
+
+<div align="left">
 
   <!-- HTML -->
-  <div style="margin-bottom: 8px;">
-    <span><strong>HTML</strong> — %95</span>
-    <div style="
-      background: #eee;
-      border-radius: 8px;
-      overflow: hidden;
-      height: 10px;
-      margin-top: 4px;
-    ">
-      <div style="
-        width: 95%;
-        height: 100%;
-        background: #ff3333;
-      "></div>
-    </div>
+  <b>HTML</b> <span>90%</span>
+  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
+    <div style="background:linear-gradient(90deg, #ffb3b3, #ff0000); width:90%; height:100%; border-radius:8px;"></div>
   </div>
 
   <!-- CSS -->
-  <div style="margin-bottom: 8px;">
-    <span><strong>CSS</strong> — %90</span>
-    <div style="
-      background: #eee;
-      border-radius: 8px;
-      overflow: hidden;
-      height: 10px;
-      margin-top: 4px;
-    ">
-      <div style="
-        width: 90%;
-        height: 100%;
-        background: #ff4d4d;
-      "></div>
-    </div>
+  <b>CSS</b> <span>85%</span>
+  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
+    <div style="background:linear-gradient(90deg, #ffbfb3, #ff1a1a); width:85%; height:100%; border-radius:8px;"></div>
   </div>
 
   <!-- JavaScript -->
-  <div style="margin-bottom: 8px;">
-    <span><strong>JavaScript</strong> — %85</span>
-    <div style="
-      background: #eee;
-      border-radius: 8px;
-      overflow: hidden;
-      height: 10px;
-      margin-top: 4px;
-    ">
-      <div style="
-        width: 85%;
-        height: 100%;
-        background: #ff6666;
-      "></div>
-    </div>
+  <b>JavaScript</b> <span>80%</span>
+  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
+    <div style="background:linear-gradient(90deg, #ffc2b3, #ff3333); width:80%; height:100%; border-radius:8px;"></div>
   </div>
 
   <!-- React -->
-  <div style="margin-bottom: 8px;">
-    <span><strong>React</strong> — %80</span>
-    <div style="
-      background: #eee;
-      border-radius: 8px;
-      overflow: hidden;
-      height: 10px;
-      margin-top: 4px;
-    ">
-      <div style="
-        width: 80%;
-        height: 100%;
-        background: #ff8080;
-      "></div>
-    </div>
+  <b>React</b> <span>75%</span>
+  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
+    <div style="background:linear-gradient(90deg, #ffc7b3, #ff4d4d); width:75%; height:100%; border-radius:8px;"></div>
   </div>
 
   <!-- TailwindCSS -->
-  <div style="margin-bottom: 8px;">
-    <span><strong>TailwindCSS</strong> — %75</span>
-    <div style="
-      background: #eee;
-      border-radius: 8px;
-      overflow: hidden;
-      height: 10px;
-      margin-top: 4px;
-    ">
-      <div style="
-        width: 75%;
-        height: 100%;
-        background: #ff9999;
-      "></div>
-    </div>
+  <b>TailwindCSS</b> <span>70%</span>
+  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
+    <div style="background:linear-gradient(90deg, #ffd1b3, #ff6666); width:70%; height:100%; border-radius:8px;"></div>
   </div>
 
   <!-- Node.js -->
-  <div style="margin-bottom: 8px;">
-    <span><strong>Node.js</strong> — %70</span>
-    <div style="
-      background: #eee;
-      border-radius: 8px;
-      overflow: hidden;
-      height: 10px;
-      margin-top: 4px;
-    ">
-      <div style="
-        width: 70%;
-        height: 100%;
-        background: #ffb3b3;
-      "></div>
-    </div>
+  <b>Node.js</b> <span>65%</span>
+  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
+    <div style="background:linear-gradient(90deg, #ffddb3, #ff8080); width:65%; height:100%; border-radius:8px;"></div>
   </div>
 
 </div>
+
 
 
 ---
