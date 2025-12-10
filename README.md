@@ -16,42 +16,80 @@ Kod yazarken tasarım detaylarına dikkat ederim; hem göze hoş gelen hem de pe
 
 ### 🧰 Yetenekler
 
-<div align="left">
+<style>
+.skill-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.skill {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 8px;
+}
+</style>
+
+<div class="skill-container">
 
   <!-- HTML -->
-  <b>HTML</b> <span>90%</span>
-  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
-    <div style="background:linear-gradient(90deg, #ffb3b3, #ff0000); width:90%; height:100%; border-radius:8px;"></div>
+  <div class="skill">
+    <div class="circle" style="background: conic-gradient(#ff0000 90%, #333 0);">
+      90%
+    </div>
+    <span><b>HTML</b></span>
   </div>
 
   <!-- CSS -->
-  <b>CSS</b> <span>85%</span>
-  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
-    <div style="background:linear-gradient(90deg, #ffbfb3, #ff1a1a); width:85%; height:100%; border-radius:8px;"></div>
+  <div class="skill">
+    <div class="circle" style="background: conic-gradient(#ff3333 85%, #333 0);">
+      85%
+    </div>
+    <span><b>CSS</b></span>
   </div>
 
   <!-- JavaScript -->
-  <b>JavaScript</b> <span>80%</span>
-  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
-    <div style="background:linear-gradient(90deg, #ffc2b3, #ff3333); width:80%; height:100%; border-radius:8px;"></div>
+  <div class="skill">
+    <div class="circle" style="background: conic-gradient(#ff4d4d 80%, #333 0);">
+      80%
+    </div>
+    <span><b>JavaScript</b></span>
   </div>
 
   <!-- React -->
-  <b>React</b> <span>75%</span>
-  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
-    <div style="background:linear-gradient(90deg, #ffc7b3, #ff4d4d); width:75%; height:100%; border-radius:8px;"></div>
+  <div class="skill">
+    <div class="circle" style="background: conic-gradient(#ff6666 75%, #333 0);">
+      75%
+    </div>
+    <span><b>React</b></span>
   </div>
 
   <!-- TailwindCSS -->
-  <b>TailwindCSS</b> <span>70%</span>
-  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
-    <div style="background:linear-gradient(90deg, #ffd1b3, #ff6666); width:70%; height:100%; border-radius:8px;"></div>
+  <div class="skill">
+    <div class="circle" style="background: conic-gradient(#ff8080 70%, #333 0);">
+      70%
+    </div>
+    <span><b>TailwindCSS</b></span>
   </div>
 
   <!-- Node.js -->
-  <b>Node.js</b> <span>65%</span>
-  <div style="background:#2b2b2b; border-radius:8px; width:100%; height:12px; margin:4px 0 10px 0;">
-    <div style="background:linear-gradient(90deg, #ffddb3, #ff8080); width:65%; height:100%; border-radius:8px;"></div>
+  <div class="skill">
+    <div class="circle" style="background: conic-gradient(#ff9999 65%, #333 0);">
+      65%
+    </div>
+    <span><b>Node.js</b></span>
   </div>
 
 </div>
