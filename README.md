@@ -13,86 +13,79 @@ Kod yazarken tasarım detaylarına dikkat ederim; hem göze hoş gelen hem de pe
 
 ---
 
-
 ### 🧰 Yetenekler
 
-<style>
-.skill-container {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
+<div style="display:flex; gap:30px; flex-wrap:wrap;">
 
-.skill {
-  text-align: center;
-  font-family: sans-serif;
-}
+  <!-- Circle Template
+       stroke-dasharray: 100
+       stroke-dashoffset = 100 - YÜZDE
+  -->
 
-.circle {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 8px;
-}
-</style>
-
-<div class="skill-container">
-
-  <!-- HTML -->
-  <div class="skill">
-    <div class="circle" style="background: conic-gradient(#ff0000 90%, #333 0);">
-      90%
-    </div>
-    <span><b>HTML</b></span>
+  <!-- HTML (90%) -->
+  <div style="text-align:center;">
+    <svg width="90" height="90">
+      <circle cx="45" cy="45" r="40" stroke="#333" stroke-width="8" fill="none"/>
+      <circle cx="45" cy="45" r="40" stroke="#ff0000" stroke-width="8" fill="none"
+        stroke-linecap="round"
+        stroke-dasharray="100"
+        stroke-dashoffset="10"
+        transform="rotate(-90 45 45)" />
+      <text x="45" y="50" font-size="16" text-anchor="middle" fill="white">90%</text>
+    </svg>
+    <b>HTML</b>
   </div>
 
-  <!-- CSS -->
-  <div class="skill">
-    <div class="circle" style="background: conic-gradient(#ff3333 85%, #333 0);">
-      85%
-    </div>
-    <span><b>CSS</b></span>
+  <!-- CSS (85%) -->
+  <div style="text-align:center;">
+    <svg width="90" height="90">
+      <circle cx="45" cy="45" r="40" stroke="#333" stroke-width="8" fill="none"/>
+      <circle cx="45" cy="45" r="40" stroke="#ff3333" stroke-width="8" fill="none"
+        stroke-linecap="round"
+        stroke-dasharray="100"
+        stroke-dashoffset="15"
+        transform="rotate(-90 45 45)" />
+      <text x="45" y="50" font-size="16" text-anchor="middle" fill="white">85%</text>
+    </svg>
+    <b>CSS</b>
   </div>
 
-  <!-- JavaScript -->
-  <div class="skill">
-    <div class="circle" style="background: conic-gradient(#ff4d4d 80%, #333 0);">
-      80%
-    </div>
-    <span><b>JavaScript</b></span>
+  <!-- JavaScript (80%) -->
+  <div style="text-align:center;">
+    <svg width="90" height="90">
+      <circle cx="45" cy="45" r="40" stroke="#333" stroke-width="8" fill="none"/>
+      <circle cx="45" cy="45" r="40" stroke="#ff4d4d" stroke-width="8" fill="none"
+        stroke-linecap="round"
+        stroke-dasharray="100"
+        stroke-dashoffset="20"
+        transform="rotate(-90 45 45)" />
+      <text x="45" y="50" font-size="16" text-anchor="middle" fill="white">80%</text>
+    </svg>
+    <b>JavaScript</b>
   </div>
 
-  <!-- React -->
-  <div class="skill">
-    <div class="circle" style="background: conic-gradient(#ff6666 75%, #333 0);">
-      75%
-    </div>
-    <span><b>React</b></span>
+  <!-- React (75%) -->
+  <div style="text-align:center;">
+    <svg width="90" height="90">
+      <circle cx="45" cy="45" r="40" stroke="#333" stroke-width="8" fill="none"/>
+      <circle cx="45" cy="45" r="40" stroke="#ff6666" stroke-width="8" fill="none"
+        stroke-linecap="round"
+        stroke-dasharray="100"
+        stroke-dashoffset="25"
+        transform="rotate(-90 45 45)" />
+      <text x="45" y="50" font-size="16" text-anchor="middle" fill="white">75%</text>
+    </svg>
+    <b>React</b>
   </div>
 
-  <!-- TailwindCSS -->
-  <div class="skill">
-    <div class="circle" style="background: conic-gradient(#ff8080 70%, #333 0);">
-      70%
-    </div>
-    <span><b>TailwindCSS</b></span>
-  </div>
-
-  <!-- Node.js -->
-  <div class="skill">
-    <div class="circle" style="background: conic-gradient(#ff9999 65%, #333 0);">
-      65%
-    </div>
-    <span><b>Node.js</b></span>
-  </div>
-
-</div>
+  <!-- Tailwind (70%) -->
+  <div style="text-align:center;">
+    <svg width="90" height="90">
+      <circle cx="45" cy="45" r="40" stroke="#333" stroke-width="8" fill="none"/>
+      <circle cx="45" cy="45" r="40" stroke="#ff8080" stroke-width="8" fill="none"
+        stroke-linecap="round"
+        stroke-dasharray="100"
+        s
 
 
 
