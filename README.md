@@ -145,7 +145,7 @@ Small steps, every day.
 
 <p>
 <a href="https://berksahin.info" target="_blank" style="font-size:20px; font-weight:bold; text-decoration:none;">
-  <b>Berk Şahin</b>
+  <b>🌐 Berk Şahin</b>
 </a>
 </p>
 
