@@ -125,6 +125,10 @@ Leveling up through real projects
 Build things that matter, stay consistent, and always improve.
 Small steps, every day.
 
+
+
 📫 Reach me
 
-https://berksahin.info
+
+[**Berk Şahin**](https://berksahin.info)
+
