@@ -1,0 +1,244 @@
+{
+  "projectName": "Roulette Royale",
+  "targetPlatform": "Adobe Animate 2022",
+  "documentType": "HTML5 Canvas",
+  "stage": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "backgroundColor": "#050505"
+  },
+  "sourceFiles": [
+    "index.html",
+    "styles.css",
+    "src/roulette-royale.js",
+    "animate/FirstFrameActions.js",
+    "animate/RouletteRoyale_Animate2022_XFL/DOMDocument.xml",
+    "animate/RouletteRoyale_Animate2022_XFL/PublishSettings.xml",
+    "animate/RouletteRoyale_Animate2022_XFL/META-INF/metadata.xml",
+    "tools/GenerateRouletteRoyaleFLA.jsfl"
+  ],
+  "deliverables": [
+    {
+      "type": "native-fla-generated-in-adobe-animate",
+      "path": "deliverables/RouletteRoyale_Animate2022.fla",
+      "generator": "tools/GenerateRouletteRoyaleFLA.jsfl",
+      "requires": "Adobe Animate 2022"
+    },
+    {
+      "type": "uncompressed-xfl",
+      "path": "animate/RouletteRoyale_Animate2022_XFL"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene 1 - Main Menu",
+      "timelineLabel": "scene_main_menu",
+      "durationFrames": 60,
+      "layers": [
+        {
+          "name": "actions",
+          "type": "actions",
+          "frame1Script": "animate/FirstFrameActions.js"
+        },
+        {
+          "name": "ui_popups",
+          "type": "movieclip",
+          "symbols": ["Popup_Settings", "Popup_Information", "Popup_Exit"]
+        },
+        {
+          "name": "menu_buttons",
+          "type": "buttons",
+          "instances": ["btnPlay", "btnSettings", "btnInfo", "btnExit"]
+        },
+        {
+          "name": "title_glow",
+          "type": "text_and_effects",
+          "instances": ["txtTitleRoulette", "txtTitleRoyale", "mcTitleGlow"]
+        },
+        {
+          "name": "background",
+          "type": "art",
+          "instances": ["bgCasinoDark", "mcMenuChipRing"]
+        }
+      ]
+    },
+    {
+      "name": "Scene 2 - Game Scene",
+      "timelineLabel": "scene_game",
+      "durationFrames": 1,
+      "layers": [
+        {
+          "name": "actions",
+          "type": "actions",
+          "runtimeClass": "RouletteRoyale.Classes.GameScene"
+        },
+        {
+          "name": "result_overlay",
+          "type": "ui",
+          "instances": ["panelResult", "txtWinningNumber", "txtWinLoss"]
+        },
+        {
+          "name": "controls",
+          "type": "buttons",
+          "instances": ["btnSpin", "btnResetBets", "btnBackMenu"]
+        },
+        {
+          "name": "chip_selector",
+          "type": "interactive_ui",
+          "instances": ["chip10", "chip50", "chip100", "chip500"]
+        },
+        {
+          "name": "betting_table",
+          "type": "interactive_ui",
+          "instances": [
+            "betZero",
+            "betNumber01",
+            "betNumber02",
+            "betNumber03",
+            "betNumber04",
+            "betNumber05",
+            "betNumber06",
+            "betNumber07",
+            "betNumber08",
+            "betNumber09",
+            "betNumber10",
+            "betNumber11",
+            "betNumber12",
+            "betNumber13",
+            "betNumber14",
+            "betNumber15",
+            "betNumber16",
+            "betNumber17",
+            "betNumber18",
+            "betNumber19",
+            "betNumber20",
+            "betNumber21",
+            "betNumber22",
+            "betNumber23",
+            "betNumber24",
+            "betNumber25",
+            "betNumber26",
+            "betNumber27",
+            "betNumber28",
+            "betNumber29",
+            "betNumber30",
+            "betNumber31",
+            "betNumber32",
+            "betNumber33",
+            "betNumber34",
+            "betNumber35",
+            "betNumber36",
+            "betLow",
+            "betEven",
+            "betRed",
+            "betBlack",
+            "betOdd",
+            "betHigh"
+          ]
+        },
+        {
+          "name": "wheel_and_ball",
+          "type": "movieclip",
+          "instances": ["mcRouletteWheel", "mcBall", "mcWheelHub"]
+        },
+        {
+          "name": "hud",
+          "type": "text",
+          "instances": ["txtBalance", "txtCurrentBet", "txtLastResult"]
+        },
+        {
+          "name": "background",
+          "type": "art",
+          "instances": ["bgCasinoDark", "panelWheel", "panelBettingTable", "panelChips"]
+        }
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "name": "Button_Gold",
+      "type": "Button",
+      "asset": "assets/svg/button_gold.svg",
+      "states": ["up", "over", "down", "disabled"]
+    },
+    {
+      "name": "Button_Green",
+      "type": "Button",
+      "states": ["up", "over", "down", "disabled"]
+    },
+    {
+      "name": "Button_Danger",
+      "type": "Button",
+      "states": ["up", "over", "down", "disabled"]
+    },
+    {
+      "name": "RouletteWheel_European",
+      "type": "MovieClip",
+      "asset": "assets/svg/roulette_wheel_european.svg",
+      "registration": "center"
+    },
+    {
+      "name": "RouletteBall",
+      "type": "MovieClip",
+      "registration": "center"
+    },
+    {
+      "name": "BettingTable_European",
+      "type": "MovieClip",
+      "asset": "assets/svg/betting_table_european.svg"
+    },
+    {
+      "name": "Chip_10",
+      "type": "MovieClip",
+      "asset": "assets/svg/chip_10.svg",
+      "registration": "center"
+    },
+    {
+      "name": "Chip_50",
+      "type": "MovieClip",
+      "asset": "assets/svg/chip_50.svg",
+      "registration": "center"
+    },
+    {
+      "name": "Chip_100",
+      "type": "MovieClip",
+      "asset": "assets/svg/chip_100.svg",
+      "registration": "center"
+    },
+    {
+      "name": "Chip_500",
+      "type": "MovieClip",
+      "asset": "assets/svg/chip_500.svg",
+      "registration": "center"
+    },
+    {
+      "name": "Popup_Settings",
+      "type": "MovieClip"
+    },
+    {
+      "name": "Popup_Information",
+      "type": "MovieClip"
+    },
+    {
+      "name": "Popup_Exit",
+      "type": "MovieClip"
+    }
+  ],
+  "gameRules": {
+    "wheel": "European single-zero",
+    "numbers": "0-36",
+    "startingBalance": 1000,
+    "chips": [10, 50, 100, 500],
+    "supportedBets": ["single", "red", "black", "even", "odd", "low", "high"],
+    "payouts": {
+      "single": "35:1",
+      "red": "1:1",
+      "black": "1:1",
+      "even": "1:1",
+      "odd": "1:1",
+      "low": "1:1",
+      "high": "1:1"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="dark casino background with gold accents">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="36%" r="68%">
+      <stop offset="0" stop-color="#51280c"/>
+      <stop offset="0.42" stop-color="#08140c"/>
+      <stop offset="1" stop-color="#020202"/>
+    </radialGradient>
+    <linearGradient id="bottomShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffde84" stop-opacity="0.12"/>
+      <stop offset="0.22" stop-color="#ffde84" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bgGlow)"/>
+  <g stroke="#d8ad49" stroke-width="2" opacity="0.13">
+    <path d="M-200 0 220 1080"/>
+    <path d="M-90 0 330 1080"/>
+    <path d="M20 0 440 1080"/>
+    <path d="M130 0 550 1080"/>
+    <path d="M240 0 660 1080"/>
+    <path d="M350 0 770 1080"/>
+    <path d="M460 0 880 1080"/>
+    <path d="M570 0 990 1080"/>
+    <path d="M680 0 1100 1080"/>
+    <path d="M790 0 1210 1080"/>
+    <path d="M900 0 1320 1080"/>
+    <path d="M1010 0 1430 1080"/>
+    <path d="M1120 0 1540 1080"/>
+    <path d="M1230 0 1650 1080"/>
+    <path d="M1340 0 1760 1080"/>
+    <path d="M1450 0 1870 1080"/>
+    <path d="M1560 0 1980 1080"/>
+    <path d="M2120 0 1700 1080"/>
+    <path d="M2010 0 1590 1080"/>
+    <path d="M1900 0 1480 1080"/>
+    <path d="M1790 0 1370 1080"/>
+    <path d="M1680 0 1260 1080"/>
+    <path d="M1570 0 1150 1080"/>
+    <path d="M1460 0 1040 1080"/>
+    <path d="M1350 0 930 1080"/>
+    <path d="M1240 0 820 1080"/>
+    <path d="M1130 0 710 1080"/>
+    <path d="M1020 0 600 1080"/>
+    <path d="M910 0 490 1080"/>
+    <path d="M800 0 380 1080"/>
+    <path d="M690 0 270 1080"/>
+    <path d="M580 0 160 1080"/>
+    <path d="M470 0 50 1080"/>
+  </g>
+  <rect width="1920" height="1080" fill="url(#bottomShade)"/>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flash_profiles>
+  <flash_profile version="1">
+    <PublishFormatProperties enabled="true" publishHTML="true" publishJavaScript="true" publishImages="true" publishSounds="true" publishCreateJSAssets="true"/>
+    <PublishHtmlProperties htmlOutputFile="../index.html" loop="false" displayMenu="false" deviceFont="false" width="1920" height="1080" scale="showAll" align="center"/>
+    <PublishJavaScriptProperties outputFile="../src/roulette-royale.js" includeHiddenLayers="false" hostedLibs="false" compactPaths="true"/>
+  </flash_profile>
+</flash_profiles>

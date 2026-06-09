@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOMSymbolItem xmlns="http://ns.adobe.com/xfl/2008/" name="Popup_Information" symbolType="movie clip" itemID="Popup_Information" linkageExportForAS="false" linkageExportForRS="false">
+  <timeline>
+    <DOMTimeline name="Popup_Information">
+      <layers>
+        <DOMLayer name="art" color="#D8AD49" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="1" name="Popup_Information_frame">
+              <elements>
+                <DOMShape name="Popup_Information_vector_art"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+  <persistentData>
+    <PD n="folder" t="s" v="Roulette Royale/Popups"/>
+    <PD n="adobeAnimateTarget" t="s" v="HTML5 Canvas"/>
+    <PD n="runtimeRenderer" t="s" v="src/roulette-royale.js"/>
+    <PD n="sourceAsset" t="s" v="runtime-vector-drawn"/>
+  </persistentData>
+  <metadata>
+    <data key="sourceAsset" value="runtime-vector-drawn"/>
+  </metadata>
+</DOMSymbolItem>

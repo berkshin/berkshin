@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="860" viewBox="0 0 820 860" role="img" aria-label="European roulette betting table">
+  <defs>
+    <linearGradient id="felt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b5b34"/>
+      <stop offset="1" stop-color="#032514"/>
+    </linearGradient>
+    <filter id="panelShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="804" height="844" rx="28" fill="url(#felt)" stroke="#d8ad49" stroke-width="5" filter="url(#panelShadow)"/>
+  <text x="410" y="62" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#ffdf89">ROULETTE ROYALE</text>
+  <g transform="translate(112 95)" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="24" text-anchor="middle">
+    <rect x="-84" y="0" width="76" height="648" rx="8" fill="#0f7d40" stroke="#f7e9c1" stroke-width="3"/>
+    <text x="-46" y="334" fill="#ffffff">0</text>
+    <g stroke="#f7e9c1" stroke-width="2">
+      <rect x="0" y="0" width="86" height="54" fill="#a61919"/><text x="43" y="35" fill="#fff" stroke="none">3</text>
+      <rect x="86" y="0" width="86" height="54" fill="#111"/><text x="129" y="35" fill="#fff" stroke="none">2</text>
+      <rect x="172" y="0" width="86" height="54" fill="#a61919"/><text x="215" y="35" fill="#fff" stroke="none">1</text>
+      <rect x="0" y="54" width="86" height="54" fill="#111"/><text x="43" y="89" fill="#fff" stroke="none">6</text>
+      <rect x="86" y="54" width="86" height="54" fill="#a61919"/><text x="129" y="89" fill="#fff" stroke="none">5</text>
+      <rect x="172" y="54" width="86" height="54" fill="#111"/><text x="215" y="89" fill="#fff" stroke="none">4</text>
+      <rect x="0" y="108" width="86" height="54" fill="#a61919"/><text x="43" y="143" fill="#fff" stroke="none">9</text>
+      <rect x="86" y="108" width="86" height="54" fill="#111"/><text x="129" y="143" fill="#fff" stroke="none">8</text>
+      <rect x="172" y="108" width="86" height="54" fill="#a61919"/><text x="215" y="143" fill="#fff" stroke="none">7</text>
+      <rect x="0" y="162" width="86" height="54" fill="#a61919"/><text x="43" y="197" fill="#fff" stroke="none">12</text>
+      <rect x="86" y="162" width="86" height="54" fill="#111"/><text x="129" y="197" fill="#fff" stroke="none">11</text>
+      <rect x="172" y="162" width="86" height="54" fill="#111"/><text x="215" y="197" fill="#fff" stroke="none">10</text>
+      <rect x="0" y="216" width="86" height="54" fill="#111"/><text x="43" y="251" fill="#fff" stroke="none">15</text>
+      <rect x="86" y="216" width="86" height="54" fill="#a61919"/><text x="129" y="251" fill="#fff" stroke="none">14</text>
+      <rect x="172" y="216" width="86" height="54" fill="#111"/><text x="215" y="251" fill="#fff" stroke="none">13</text>
+      <rect x="0" y="270" width="86" height="54" fill="#a61919"/><text x="43" y="305" fill="#fff" stroke="none">18</text>
+      <rect x="86" y="270" width="86" height="54" fill="#111"/><text x="129" y="305" fill="#fff" stroke="none">17</text>
+      <rect x="172" y="270" width="86" height="54" fill="#a61919"/><text x="215" y="305" fill="#fff" stroke="none">16</text>
+      <rect x="0" y="324" width="86" height="54" fill="#a61919"/><text x="43" y="359" fill="#fff" stroke="none">21</text>
+      <rect x="86" y="324" width="86" height="54" fill="#111"/><text x="129" y="359" fill="#fff" stroke="none">20</text>
+      <rect x="172" y="324" width="86" height="54" fill="#a61919"/><text x="215" y="359" fill="#fff" stroke="none">19</text>
+      <rect x="0" y="378" width="86" height="54" fill="#111"/><text x="43" y="413" fill="#fff" stroke="none">24</text>
+      <rect x="86" y="378" width="86" height="54" fill="#a61919"/><text x="129" y="413" fill="#fff" stroke="none">23</text>
+      <rect x="172" y="378" width="86" height="54" fill="#111"/><text x="215" y="413" fill="#fff" stroke="none">22</text>
+      <rect x="0" y="432" width="86" height="54" fill="#a61919"/><text x="43" y="467" fill="#fff" stroke="none">27</text>
+      <rect x="86" y="432" width="86" height="54" fill="#111"/><text x="129" y="467" fill="#fff" stroke="none">26</text>
+      <rect x="172" y="432" width="86" height="54" fill="#a61919"/><text x="215" y="467" fill="#fff" stroke="none">25</text>
+      <rect x="0" y="486" width="86" height="54" fill="#a61919"/><text x="43" y="521" fill="#fff" stroke="none">30</text>
+      <rect x="86" y="486" width="86" height="54" fill="#111"/><text x="129" y="521" fill="#fff" stroke="none">29</text>
+      <rect x="172" y="486" width="86" height="54" fill="#111"/><text x="215" y="521" fill="#fff" stroke="none">28</text>
+      <rect x="0" y="540" width="86" height="54" fill="#111"/><text x="43" y="575" fill="#fff" stroke="none">33</text>
+      <rect x="86" y="540" width="86" height="54" fill="#a61919"/><text x="129" y="575" fill="#fff" stroke="none">32</text>
+      <rect x="172" y="540" width="86" height="54" fill="#111"/><text x="215" y="575" fill="#fff" stroke="none">31</text>
+      <rect x="0" y="594" width="86" height="54" fill="#a61919"/><text x="43" y="629" fill="#fff" stroke="none">36</text>
+      <rect x="86" y="594" width="86" height="54" fill="#111"/><text x="129" y="629" fill="#fff" stroke="none">35</text>
+      <rect x="172" y="594" width="86" height="54" fill="#a61919"/><text x="215" y="629" fill="#fff" stroke="none">34</text>
+    </g>
+    <g transform="translate(-84 682)" stroke="#f7e9c1" stroke-width="2" font-size="21">
+      <rect x="0" y="0" width="116" height="72" rx="10" fill="#0d4d2c"/><text x="58" y="44" fill="#fff">LOW</text>
+      <rect x="124" y="0" width="116" height="72" rx="10" fill="#0d4d2c"/><text x="182" y="44" fill="#fff">EVEN</text>
+      <rect x="248" y="0" width="116" height="72" rx="10" fill="#a61919"/><text x="306" y="44" fill="#fff">RED</text>
+      <rect x="372" y="0" width="116" height="72" rx="10" fill="#111"/><text x="430" y="44" fill="#fff">BLACK</text>
+      <rect x="496" y="0" width="116" height="72" rx="10" fill="#0d4d2c"/><text x="554" y="44" fill="#fff">ODD</text>
+      <rect x="620" y="0" width="116" height="72" rx="10" fill="#0d4d2c"/><text x="678" y="44" fill="#fff">HIGH</text>
+    </g>
+  </g>
+</svg>

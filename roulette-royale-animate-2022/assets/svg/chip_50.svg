@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="50 credit white roulette chip">
+  <defs>
+    <radialGradient id="chip50Fill" cx="36%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#eeeeee"/>
+      <stop offset="1" stop-color="#8e8e8e"/>
+    </radialGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <circle cx="80" cy="80" r="70" fill="url(#chip50Fill)" stroke="#d8ad49" stroke-width="6" filter="url(#softShadow)"/>
+  <g fill="none" stroke="#222222" stroke-width="10" stroke-linecap="round">
+    <path d="M80 20v18"/>
+    <path d="M80 122v18"/>
+    <path d="M20 80h18"/>
+    <path d="M122 80h18"/>
+    <path d="M37.6 37.6l12.8 12.8"/>
+    <path d="M109.6 109.6l12.8 12.8"/>
+    <path d="M122.4 37.6l-12.8 12.8"/>
+    <path d="M50.4 109.6l-12.8 12.8"/>
+  </g>
+  <circle cx="80" cy="80" r="43" fill="none" stroke="#d8ad49" stroke-width="4"/>
+  <text x="80" y="91" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#111111" stroke="#ffffff" stroke-width="2">50</text>
+</svg>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOMDocument xmlns="http://ns.adobe.com/xfl/2008/"
+  xflVersion="2.971"
+  creatorInfo="Adobe Animate 2022 HTML5 Canvas"
+  platform="HTML5 Canvas"
+  width="1920"
+  height="1080"
+  frameRate="60"
+  backgroundColor="#050505">
+  <folders>
+    <DOMFolderItem name="Roulette Royale"/>
+    <DOMFolderItem name="Roulette Royale/UI"/>
+    <DOMFolderItem name="Roulette Royale/Roulette"/>
+    <DOMFolderItem name="Roulette Royale/Chips"/>
+    <DOMFolderItem name="Roulette Royale/Popups"/>
+  </folders>
+  <symbols>
+    <Include href="LIBRARY/Button_Gold.xml"/>
+    <Include href="LIBRARY/Button_Green.xml"/>
+    <Include href="LIBRARY/Button_Danger.xml"/>
+    <Include href="LIBRARY/RouletteWheel_European.xml"/>
+    <Include href="LIBRARY/RouletteBall.xml"/>
+    <Include href="LIBRARY/BettingTable_European.xml"/>
+    <Include href="LIBRARY/Chip_10.xml"/>
+    <Include href="LIBRARY/Chip_50.xml"/>
+    <Include href="LIBRARY/Chip_100.xml"/>
+    <Include href="LIBRARY/Chip_500.xml"/>
+    <Include href="LIBRARY/Popup_Settings.xml"/>
+    <Include href="LIBRARY/Popup_Information.xml"/>
+    <Include href="LIBRARY/Popup_Exit.xml"/>
+  </symbols>
+  <timelines>
+    <DOMTimeline name="Scene 1 - Main Menu">
+      <layers>
+        <DOMLayer name="actions" color="#9933CC" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="1" name="scene_main_menu">
+              <Actionscript>
+                <script><![CDATA[
+/*
+ * Adobe Animate 2022 - Scene 1, Frame 1 actions
+ * Include scripts/roulette-royale.js in Publish Settings.
+ */
+(function () {
+  "use strict";
+
+  if (!window.RouletteRoyale) {
+    throw new Error("Roulette Royale runtime is missing. Include scripts/roulette-royale.js in Publish Settings.");
+  }
+
+  window.RouletteRoyale.bootstrap({
+    canvasId: "canvas",
+    containerId: "animation_container",
+    overlayId: "dom_overlay_container"
+  });
+}());
+                ]]></script>
+              </Actionscript>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ui_popups" color="#FF66CC" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="60" name="menu_popups">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Popup_Settings" name="Popup_Settings" symbolType="movie clip">
+                  <matrix><Matrix tx="960" ty="540"/></matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Popup_Information" name="Popup_Information" symbolType="movie clip">
+                  <matrix><Matrix tx="960" ty="540"/></matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Popup_Exit" name="Popup_Exit" symbolType="movie clip">
+                  <matrix><Matrix tx="960" ty="540"/></matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="menu_buttons" color="#00CCFF" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="60" name="menu_buttons">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Button_Gold" name="btnPlay" symbolType="button">
+                  <matrix><Matrix tx="960" ty="559"/></matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Button_Green" name="btnSettings" symbolType="button">
+                  <matrix><Matrix tx="960" ty="656"/></matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Button_Green" name="btnInfo" symbolType="button">
+                  <matrix><Matrix tx="960" ty="746"/></matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Button_Danger" name="btnExit" symbolType="button">
+                  <matrix><Matrix tx="960" ty="836"/></matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="title_glow" color="#FFCC00" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="60" name="menu_title">
+              <elements>
+                <DOMDynamicText name="txtTitleRoulette" width="920" height="120" isSelectable="false" alignment="center">
+                  <matrix><Matrix tx="500" ty="238"/></matrix>
+                  <textRuns><DOMTextRun><characters>ROULETTE</characters></DOMTextRun></textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="txtTitleRoyale" width="920" height="128" isSelectable="false" alignment="center">
+                  <matrix><Matrix tx="500" ty="334"/></matrix>
+                  <textRuns><DOMTextRun><characters>ROYALE</characters></DOMTextRun></textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#006633" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="60" name="menu_background">
+              <elements>
+                <DOMShape name="bgCasinoDark"/>
+                <DOMSymbolInstance libraryItemName="Chip_10" name="mcMenuChipRing" symbolType="movie clip">
+                  <matrix><Matrix tx="960" ty="500"/></matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+    <DOMTimeline name="Scene 2 - Game Scene">
+      <layers>
+        <DOMLayer name="actions" color="#9933CC" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="1" name="scene_game">
+              <Actionscript>
+                <script><![CDATA[
+// Runtime scene logic is handled by RouletteRoyale.Classes.GameScene.
+                ]]></script>
+              </Actionscript>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="result_overlay" color="#FF9900" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="1" name="game_result_overlay">
+              <elements>
+                <DOMShape name="panelResult"/>
+                <DOMDynamicText name="txtWinningNumber" width="300" height="150" isSelectable="false" alignment="center">
+                  <matrix><Matrix tx="1502" ty="220"/></matrix>
+                  <textRuns><DOMTextRun><characters>--</characters></DOMTextRun></textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="txtWinLoss" width="350" height="160" isSelectable="false" alignment="center">
+                  <matrix><Matrix tx="1477" ty="465"/></matrix>
+                  <textRuns><DOMTextRun><characters>Select a chip and place your bets.</characters></DOMTextRun></textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="controls" color="#00CCFF" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="1" name="game_controls">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Button_Gold" name="btnSpin" symbolType="button">
+                  <matrix><Matrix tx="1650" ty="882"/></matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Button_Green" name="btnResetBets" symbolType="button">
+                  <matrix><Matrix tx="1650" ty="968"/></matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Button_Green" name="btnBackMenu" symbolType="button">
+                  <matrix><Matrix tx="202" ty="81"/></matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chip_selector" color="#CC66FF" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="1" name="game_chips">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Chip_10" name="chip10" symbolType="movie clip"><matrix><Matrix tx="150" ty="886"/></matrix></DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chip_50" name="chip50" symbolType="movie clip"><matrix><Matrix tx="292" ty="886"/></matrix></DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chip_100" name="chip100" symbolType="movie clip"><matrix><Matrix tx="434" ty="886"/></matrix></DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Chip_500" name="chip500" symbolType="movie clip"><matrix><Matrix tx="576" ty="886"/></matrix></DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="betting_table" color="#00CC66" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="1" name="game_betting_table">
+              <elements>
+                <DOMSymbolInstance libraryItemName="BettingTable_European" name="panelBettingTable" symbolType="movie clip">
+                  <matrix><Matrix tx="1060" ty="540"/></matrix>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="wheel_and_ball" color="#FF3333" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="1" name="game_wheel_and_ball">
+              <elements>
+                <DOMSymbolInstance libraryItemName="RouletteWheel_European" name="mcRouletteWheel" symbolType="movie clip">
+                  <matrix><Matrix tx="377" ty="478"/></matrix>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="RouletteBall" name="mcBall" symbolType="movie clip">
+                  <matrix><Matrix tx="596" ty="311"/></matrix>
+                </DOMSymbolInstance>
+                <DOMShape name="mcWheelHub"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="hud" color="#FFFF00" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="1" name="game_hud">
+              <elements>
+                <DOMDynamicText name="txtBalance" width="300" height="72" isSelectable="false"><matrix><Matrix tx="380" ty="40"/></matrix><textRuns><DOMTextRun><characters>1000 Credits</characters></DOMTextRun></textRuns></DOMDynamicText>
+                <DOMDynamicText name="txtCurrentBet" width="300" height="72" isSelectable="false"><matrix><Matrix tx="706" ty="40"/></matrix><textRuns><DOMTextRun><characters>0 Credits</characters></DOMTextRun></textRuns></DOMDynamicText>
+                <DOMDynamicText name="txtLastResult" width="420" height="72" isSelectable="false"><matrix><Matrix tx="1032" ty="40"/></matrix><textRuns><DOMTextRun><characters>--</characters></DOMTextRun></textRuns></DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#006633" locked="false" visible="true" layerType="normal">
+          <frames>
+            <DOMFrame index="0" duration="1" name="game_background">
+              <elements>
+                <DOMShape name="bgCasinoDark"/>
+                <DOMShape name="panelWheel"/>
+                <DOMShape name="panelChips"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timelines>
+</DOMDocument>
