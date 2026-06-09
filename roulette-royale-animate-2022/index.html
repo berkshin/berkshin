@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="adobe-animate-target" content="Adobe Animate 2022 HTML5 Canvas">
+  <title>Roulette Royale - Adobe Animate 2022 HTML5 Canvas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="animation_container" aria-label="Roulette Royale game canvas">
+    <canvas id="canvas" width="1920" height="1080">
+      Roulette Royale requires a browser with HTML5 Canvas support.
+    </canvas>
+    <div id="dom_overlay_container"></div>
+  </main>
+
+  <noscript>
+    <p class="noscript">Enable JavaScript to play Roulette Royale.</p>
+  </noscript>
+
+  <script src="src/roulette-royale.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      RouletteRoyale.bootstrap({
+        canvasId: "canvas",
+        containerId: "animation_container",
+        overlayId: "dom_overlay_container"
+      });
+    });
+  </script>
+</body>
+</html>
