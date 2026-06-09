@@ -744,6 +744,7 @@
       this.fade = 0;
       this.settingsPopup = null;
       this.infoPopup = null;
+      this.exitPopup = null;
       this.configurePopups();
       this.buttons = [
         new Button({ id: "btnPlay", x: 760, y: 520, width: 400, height: 78, label: "PLAY", onClick: () => app.sceneManager.goTo("game") }),
@@ -808,12 +809,21 @@
           "Press SPIN to launch the wheel and ball animation."
         ]
       });
+
+      this.exitPopup = new Popup({
+        title: "EXIT",
+        lines: [
+          "Your browser does not allow this page to close itself.",
+          "Use the browser tab or host application controls to exit."
+        ]
+      });
     }
 
     enter() {
       this.fade = 0;
       this.settingsPopup.close();
       this.infoPopup.close();
+      this.exitPopup.close();
     }
 
     update(delta) {
@@ -829,6 +839,7 @@
       this.buttons.forEach((button) => button.draw(ctx, this.fade));
       this.settingsPopup.draw(ctx);
       this.infoPopup.draw(ctx);
+      this.exitPopup.draw(ctx);
       ctx.restore();
     }
 
@@ -872,14 +883,14 @@
     }
 
     handlePointerDown(point) {
-      if (this.settingsPopup.handlePointerDown(point) || this.infoPopup.handlePointerDown(point)) {
+      if (this.settingsPopup.handlePointerDown(point) || this.infoPopup.handlePointerDown(point) || this.exitPopup.handlePointerDown(point)) {
         return true;
       }
       return super.handlePointerDown(point);
     }
 
     handlePointerMove(point) {
-      if (this.settingsPopup.handlePointerMove(point) || this.infoPopup.handlePointerMove(point)) {
+      if (this.settingsPopup.handlePointerMove(point) || this.infoPopup.handlePointerMove(point) || this.exitPopup.handlePointerMove(point)) {
         return true;
       }
       return super.handlePointerMove(point);
@@ -1464,12 +1475,7 @@
       }
       const current = this.sceneManager.current;
       if (current instanceof MainMenuScene) {
-        current.infoPopup.title = "EXIT";
-        current.infoPopup.lines = [
-          "Your browser does not allow this page to close itself.",
-          "Use the browser tab or host application controls to exit."
-        ];
-        current.infoPopup.open();
+        current.exitPopup.open();
       }
     }
   }

@@ -18,7 +18,7 @@ Timeline label: `scene_main_menu`
 | Layer Name | Purpose | Symbols / Instances |
 | --- | --- | --- |
 | `actions` | Bootstraps runtime | Frame 1 uses `animate/FirstFrameActions.js` |
-| `ui_popups` | Modal overlays | `Popup_Settings`, `Popup_Information` |
+| `ui_popups` | Modal overlays | `Popup_Settings`, `Popup_Information`, `Popup_Exit` |
 | `menu_buttons` | Primary menu controls | `btnPlay`, `btnSettings`, `btnInfo`, `btnExit` |
 | `title_glow` | Title text and glow effects | `txtTitleRoulette`, `txtTitleRoyale`, `mcTitleGlow` |
 | `background` | Casino art and decorative chips | `bgCasinoDark`, `mcMenuChipRing` |
@@ -73,6 +73,7 @@ Timeline label: `scene_game`
 | `Chip_500` | MovieClip | Purple chip, center registration |
 | `Popup_Settings` | MovieClip | Settings modal |
 | `Popup_Information` | MovieClip | Information modal |
+| `Popup_Exit` | MovieClip | Browser fallback exit modal |
 
 ## Runtime Architecture
 

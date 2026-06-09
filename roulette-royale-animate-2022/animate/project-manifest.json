@@ -28,7 +28,7 @@
         {
           "name": "ui_popups",
           "type": "movieclip",
-          "symbols": ["Popup_Settings", "Popup_Information"]
+          "symbols": ["Popup_Settings", "Popup_Information", "Popup_Exit"]
         },
         {
           "name": "menu_buttons",
@@ -202,6 +202,10 @@
     },
     {
       "name": "Popup_Information",
+      "type": "MovieClip"
+    },
+    {
+      "name": "Popup_Exit",
       "type": "MovieClip"
     }
   ],
