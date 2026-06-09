@@ -22,6 +22,21 @@ roulette-royale-animate-2022/
   animate/
     FirstFrameActions.js
     project-manifest.json
+    RouletteRoyale_Animate2022_XFL/
+      DOMDocument.xml
+      PublishSettings.xml
+      META-INF/
+        metadata.xml
+      LIBRARY/
+        *.xml
+      scripts/
+        roulette-royale.js
+        FirstFrameActions.js
+      assets/
+        svg/
+          *.svg
+  deliverables/
+    RouletteRoyale_Animate2022.fla
   assets/
     svg/
       betting_table_european.svg
@@ -52,6 +67,8 @@ roulette-royale-animate-2022/
   - reusable canvas UI controls
 - `animate/FirstFrameActions.js` is the Scene 1 Frame 1 action script for Animate.
 - `animate/project-manifest.json` defines stage settings, scene names, layer names, symbols, instance names, assets, and rules.
+- `animate/RouletteRoyale_Animate2022_XFL/` is the uncompressed Animate/XFL source package.
+- `deliverables/RouletteRoyale_Animate2022.fla` is the compressed Animate deliverable built from the XFL package.
 
 ## Game Features
 
@@ -65,6 +82,24 @@ roulette-royale-animate-2022/
 - Payouts: single number 35:1; outside bets 1:1.
 - European wheel order:
   `0,32,15,19,4,21,2,25,17,34,6,27,13,36,11,30,8,23,10,5,24,16,33,1,20,14,31,9,22,18,29,7,28,12,35,3,26`
+
+## Adobe Animate Deliverable
+
+Primary deliverable:
+
+```text
+deliverables/RouletteRoyale_Animate2022.fla
+```
+
+The `.fla` file is a compressed XFL package containing:
+
+- `DOMDocument.xml`
+- `PublishSettings.xml`
+- `META-INF/metadata.xml`
+- `LIBRARY/*.xml` symbol definitions
+- `scripts/roulette-royale.js`
+- `scripts/FirstFrameActions.js`
+- `assets/svg/*.svg`
 
 ## Adobe Animate Integration
 

@@ -12,7 +12,21 @@
     "index.html",
     "styles.css",
     "src/roulette-royale.js",
-    "animate/FirstFrameActions.js"
+    "animate/FirstFrameActions.js",
+    "animate/RouletteRoyale_Animate2022_XFL/DOMDocument.xml",
+    "animate/RouletteRoyale_Animate2022_XFL/PublishSettings.xml",
+    "animate/RouletteRoyale_Animate2022_XFL/META-INF/metadata.xml"
+  ],
+  "deliverables": [
+    {
+      "type": "compressed-fla",
+      "path": "deliverables/RouletteRoyale_Animate2022.fla",
+      "source": "animate/RouletteRoyale_Animate2022_XFL"
+    },
+    {
+      "type": "uncompressed-xfl",
+      "path": "animate/RouletteRoyale_Animate2022_XFL"
+    }
   ],
   "scenes": [
     {

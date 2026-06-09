@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <project name="Roulette Royale" target="Adobe Animate 2022" documentType="HTML5 Canvas" width="1920" height="1080" fps="60"/>
+  <runtime file="scripts/roulette-royale.js" namespace="RouletteRoyale"/>
+  <entry file="scripts/FirstFrameActions.js" scene="Scene 1 - Main Menu" layer="actions" frame="1"/>
+  <description>Playable European roulette game with menu, settings, information, betting, payouts, balance management, wheel animation, and ball animation.</description>
+</metadata>
