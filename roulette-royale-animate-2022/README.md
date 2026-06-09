@@ -35,8 +35,10 @@ roulette-royale-animate-2022/
       assets/
         svg/
           *.svg
+  tools/
+    GenerateRouletteRoyaleFLA.jsfl
   deliverables/
-    RouletteRoyale_Animate2022.fla
+    README.md
   assets/
     svg/
       betting_table_european.svg
@@ -68,7 +70,7 @@ roulette-royale-animate-2022/
 - `animate/FirstFrameActions.js` is the Scene 1 Frame 1 action script for Animate.
 - `animate/project-manifest.json` defines stage settings, scene names, layer names, symbols, instance names, assets, and rules.
 - `animate/RouletteRoyale_Animate2022_XFL/` is the uncompressed Animate/XFL source package.
-- `deliverables/RouletteRoyale_Animate2022.fla` is the compressed Animate deliverable built from the XFL package.
+- `tools/GenerateRouletteRoyaleFLA.jsfl` is the Adobe Animate script that creates and saves the native `.fla` file.
 
 ## Game Features
 
@@ -83,23 +85,20 @@ roulette-royale-animate-2022/
 - European wheel order:
   `0,32,15,19,4,21,2,25,17,34,6,27,13,36,11,30,8,23,10,5,24,16,33,1,20,14,31,9,22,18,29,7,28,12,35,3,26`
 
-## Adobe Animate Deliverable
+## Adobe Animate FLA Generation
 
-Primary deliverable:
+Adobe Animate itself is required to write a native `.fla` file. To generate it:
 
-```text
-deliverables/RouletteRoyale_Animate2022.fla
-```
+1. Open Adobe Animate 2022.
+2. Select `File > Scripts > Run Script...`.
+3. Choose `tools/GenerateRouletteRoyaleFLA.jsfl`.
+4. The script creates an HTML5 Canvas document and saves:
 
-The `.fla` file is a compressed XFL package containing:
+   ```text
+   deliverables/RouletteRoyale_Animate2022.fla
+   ```
 
-- `DOMDocument.xml`
-- `PublishSettings.xml`
-- `META-INF/metadata.xml`
-- `LIBRARY/*.xml` symbol definitions
-- `scripts/roulette-royale.js`
-- `scripts/FirstFrameActions.js`
-- `assets/svg/*.svg`
+The generated FLA embeds the complete game runtime in Scene 1, Frame 1 actions and creates the required stage, symbol names, instance names, and document settings.
 
 ## Adobe Animate Integration
 

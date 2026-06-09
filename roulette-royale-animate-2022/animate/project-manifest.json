@@ -15,13 +15,15 @@
     "animate/FirstFrameActions.js",
     "animate/RouletteRoyale_Animate2022_XFL/DOMDocument.xml",
     "animate/RouletteRoyale_Animate2022_XFL/PublishSettings.xml",
-    "animate/RouletteRoyale_Animate2022_XFL/META-INF/metadata.xml"
+    "animate/RouletteRoyale_Animate2022_XFL/META-INF/metadata.xml",
+    "tools/GenerateRouletteRoyaleFLA.jsfl"
   ],
   "deliverables": [
     {
-      "type": "compressed-fla",
+      "type": "native-fla-generated-in-adobe-animate",
       "path": "deliverables/RouletteRoyale_Animate2022.fla",
-      "source": "animate/RouletteRoyale_Animate2022_XFL"
+      "generator": "tools/GenerateRouletteRoyaleFLA.jsfl",
+      "requires": "Adobe Animate 2022"
     },
     {
       "type": "uncompressed-xfl",
